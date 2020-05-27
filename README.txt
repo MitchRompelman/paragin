@@ -50,4 +50,4 @@ SETUP USER
 3. $user->name = 'paragin';
 4. $user->email = 'paragin@paragin.nl';
 5. $user->password = Hash::make('paragin');
-6. $user->save();
+6. $user->save(); 
