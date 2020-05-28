@@ -1,0 +1,18 @@
+h4 {
+    margin: 15px 0 15px 0;
+}
+thead {
+    background-color: #ccc;
+}
+table.dataTable tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.btn {
+    background-color: rgb(120, 190, 32);
+    color: #fff;
+    margin: 15px 0 15px 0;
+}
+.btn:hover {
+    color: rgb(120, 190, 32);
+    background-color: #fff;
+}

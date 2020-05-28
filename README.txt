@@ -42,12 +42,16 @@ SETUP LOCAL
 2. Setup the .env file
 3. php artisan key:generate
 4. php artisan migrate
+5. composer require rap2hpoutre/fast-excel
+6. SETUP USER
 
-SETUP USER
+        1. php artisan tinker
+        2. $user = new User();
+        3. $user->name = 'paragin';
+        4. $user->email = 'paragin@paragin.nl';
+        5. $user->password = Hash::make('paragin');
+        6. $user->save();
+        7. exit; 
 
-1. php artisan tinker
-2. $user = new User();
-3. $user->name = 'paragin';
-4. $user->email = 'paragin@paragin.nl';
-5. $user->password = Hash::make('paragin');
-6. $user->save(); 
+7. login with given user info
+8. Follow steps.
